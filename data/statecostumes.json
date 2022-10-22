@@ -1,0 +1,410 @@
+[
+  {
+    "state": "Alaska",
+    "r1": "Rabbit",
+    "r2": "Bluey",
+    "r3": "Stranger Things",
+    "r4": "Toy Story",
+    "r5": "Bear"
+  },
+  {
+    "state": "Alabama",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Harley Quinn",
+    "r4": "Cheerleader",
+    "r5": "Pirate"
+  },
+  {
+    "state": "Arkansas",
+    "r1": "Cheerleader",
+    "r2": "Stranger Things",
+    "r3": "Top Gun",
+    "r4": "Witch",
+    "r5": "Pirate"
+  },
+  {
+    "state": "Arizona",
+    "r1": "Dinosaur",
+    "r2": "Witch",
+    "r3": "Fairy",
+    "r4": "Spider-Man",
+    "r5": "Stranger Things"
+  },
+  {
+    "state": "California",
+    "r1": "Spider-Man",
+    "r2": "Dinosaur",
+    "r3": "Witch",
+    "r4": "Fairy",
+    "r5": "Rabbit"
+  },
+  {
+    "state": "Colorado",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Stranger Things",
+    "r4": "Spider-Man",
+    "r5": "Pumpkin"
+  },
+  {
+    "state": "Connecticut",
+    "r1": "Stranger Things",
+    "r2": "Fairy",
+    "r3": "Dinosaur",
+    "r4": "Spider-Man",
+    "r5": "Pumpkin"
+  },
+  {
+    "state": "District of Columbia",
+    "r1": "Paw Patrol",
+    "r2": "Spider",
+    "r3": "Cheerleader",
+    "r4": "Spider-Man",
+    "r5": "The Renaissance"
+  },
+  {
+    "state": "Delaware",
+    "r1": "Rabbit",
+    "r2": "Witch",
+    "r3": "The Wizard Of Oz",
+    "r4": "Wilma Flintstone",
+    "r5": "Harley Quinn"
+  },
+  {
+    "state": "Florida",
+    "r1": "Pirate",
+    "r2": "Rabbit",
+    "r3": "Witch",
+    "r4": "Fairy",
+    "r5": "Stranger Things"
+  },
+  {
+    "state": "Georgia",
+    "r1": "Spider-Man",
+    "r2": "Fairy",
+    "r3": "Dinosaur",
+    "r4": "Witch",
+    "r5": "Cheerleader"
+  },
+  {
+    "state": "Hawaii",
+    "r1": "Maui",
+    "r2": "Stranger Things",
+    "r3": "Pirate",
+    "r4": "Skeleton",
+    "r5": "1970S"
+  },
+  {
+    "state": "Iowa",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Spider-Man",
+    "r4": "Cheerleader",
+    "r5": "Rabbit"
+  },
+  {
+    "state": "Idaho",
+    "r1": "Witch",
+    "r2": "Spider-Man",
+    "r3": "Tinker Bell",
+    "r4": "Fairy",
+    "r5": "1980S"
+  },
+  {
+    "state": "Illinois",
+    "r1": "Stranger Things",
+    "r2": "Witch",
+    "r3": "Dinosaur",
+    "r4": "Spider-Man",
+    "r5": "Cheerleader"
+  },
+  {
+    "state": "Indiana",
+    "r1": "Spider-Man",
+    "r2": "Dinosaur",
+    "r3": "Rabbit",
+    "r4": "Fairy",
+    "r5": "Harley Quinn"
+  },
+  {
+    "state": "Kansas",
+    "r1": "Fairy",
+    "r2": "Witch",
+    "r3": "Spider-Man",
+    "r4": "Cheerleader",
+    "r5": "Stranger Things"
+  },
+  {
+    "state": "Kentucky",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Clown",
+    "r4": "Hocus Pocus",
+    "r5": "Ghost"
+  },
+  {
+    "state": "Louisiana",
+    "r1": "Stranger Things",
+    "r2": "Pirate",
+    "r3": "Cowboy",
+    "r4": "Witch",
+    "r5": "Rabbit"
+  },
+  {
+    "state": "Massachusetts",
+    "r1": "Dinosaur",
+    "r2": "Spider-Man",
+    "r3": "Fairy",
+    "r4": "Stranger Things",
+    "r5": "Witch"
+  },
+  {
+    "state": "Maryland",
+    "r1": "Fairy",
+    "r2": "The Renaissance",
+    "r3": "Pirate",
+    "r4": "Rabbit",
+    "r5": "Dinosaur"
+  },
+  {
+    "state": "Maine",
+    "r1": "Pirate",
+    "r2": "Horse",
+    "r3": "Fairy",
+    "r4": "Witch",
+    "r5": "1980S"
+  },
+  {
+    "state": "Michigan",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Fairy",
+    "r4": "Spider-Man",
+    "r5": "The Renaissance"
+  },
+  {
+    "state": "Minnesota",
+    "r1": "The Renaissance",
+    "r2": "Fairy",
+    "r3": "Stranger Things",
+    "r4": "Dinosaur",
+    "r5": "Clown"
+  },
+  {
+    "state": "Missouri",
+    "r1": "Witch",
+    "r2": "Dinosaur",
+    "r3": "Spider-Man",
+    "r4": "Stranger Things",
+    "r5": "Hocus Pocus"
+  },
+  {
+    "state": "Mississippi",
+    "r1": "1980S",
+    "r2": "Harley Quinn",
+    "r3": "Spider-Man",
+    "r4": "Witch",
+    "r5": "Cowboy"
+  },
+  {
+    "state": "Montana",
+    "r1": "Witch",
+    "r2": "Rabbit",
+    "r3": "Zombie",
+    "r4": "Fairy",
+    "r5": "Cheerleader"
+  },
+  {
+    "state": "North Carolina",
+    "r1": "Fairy",
+    "r2": "Spider-Man",
+    "r3": "Witch",
+    "r4": "Harley Quinn",
+    "r5": "Dinosaur"
+  },
+  {
+    "state": "North Dakota",
+    "r1": "Pirate",
+    "r2": "Stranger Things",
+    "r3": "Horse",
+    "r4": "Dinosaur",
+    "r5": "Chicken"
+  },
+  {
+    "state": "Nebraska",
+    "r1": "Dinosaur",
+    "r2": "Spider",
+    "r3": "Bluey",
+    "r4": "Zombie",
+    "r5": "Toy Story"
+  },
+  {
+    "state": "New Hampshire",
+    "r1": "Stranger Things",
+    "r2": "Dinosaur",
+    "r3": "Ghost",
+    "r4": "Hocus Pocus",
+    "r5": "Witch"
+  },
+  {
+    "state": "New Jersey",
+    "r1": "Spider-Man",
+    "r2": "Witch",
+    "r3": "Rabbit",
+    "r4": "Zombie",
+    "r5": "Stranger Things"
+  },
+  {
+    "state": "New Mexico",
+    "r1": "Clown",
+    "r2": "Dinosaur",
+    "r3": "Rabbit",
+    "r4": "Spider-Man",
+    "r5": "Pirate"
+  },
+  {
+    "state": "Nevada",
+    "r1": "Spider-Man",
+    "r2": "Rabbit",
+    "r3": "Witch",
+    "r4": "Stranger Things",
+    "r5": "Vampire"
+  },
+  {
+    "state": "New York",
+    "r1": "Fairy",
+    "r2": "Witch",
+    "r3": "Spider-Man",
+    "r4": "Stranger Things",
+    "r5": "Rabbit"
+  },
+  {
+    "state": "Ohio",
+    "r1": "Dinosaur",
+    "r2": "Stranger Things",
+    "r3": "Spider-Man",
+    "r4": "Witch",
+    "r5": "Cowboy"
+  },
+  {
+    "state": "Oklahoma",
+    "r1": "Fairy",
+    "r2": "Stranger Things",
+    "r3": "Witch",
+    "r4": "Pirate",
+    "r5": "Dinosaur"
+  },
+  {
+    "state": "Oregon",
+    "r1": "Fairy",
+    "r2": "Dinosaur",
+    "r3": "Rabbit",
+    "r4": "Stranger Things",
+    "r5": "Bear"
+  },
+  {
+    "state": "Pennsylvania",
+    "r1": "Stranger Things",
+    "r2": "Dinosaur",
+    "r3": "Witch",
+    "r4": "Rabbit",
+    "r5": "Spider-Man"
+  },
+  {
+    "state": "Rhode Island",
+    "r1": "Vampire",
+    "r2": "Chucky",
+    "r3": "Spider-Man",
+    "r4": "Witch",
+    "r5": "Ninja"
+  },
+  {
+    "state": "South Carolina",
+    "r1": "Cheerleader",
+    "r2": "Spider-Man",
+    "r3": "Pirate",
+    "r4": "Fairy",
+    "r5": "Harley Quinn"
+  },
+  {
+    "state": "South Dakota",
+    "r1": "Dinosaur",
+    "r2": "Star Wars",
+    "r3": "Vikings",
+    "r4": "Buzz Lightyear",
+    "r5": "Bluey"
+  },
+  {
+    "state": "Tennessee",
+    "r1": "Dinosaur",
+    "r2": "Witch",
+    "r3": "Spider-Man",
+    "r4": "Harley Quinn",
+    "r5": "Chucky"
+  },
+  {
+    "state": "Texas",
+    "r1": "Spider-Man",
+    "r2": "Dinosaur",
+    "r3": "Pirate",
+    "r4": "Witch",
+    "r5": "Cheerleader"
+  },
+  {
+    "state": "Utah",
+    "r1": "Witch",
+    "r2": "Top Gun",
+    "r3": "Alien",
+    "r4": "Pirate",
+    "r5": "Dinosaur"
+  },
+  {
+    "state": "Virginia",
+    "r1": "Spider-Man",
+    "r2": "Dinosaur",
+    "r3": "Rabbit",
+    "r4": "Stranger Things",
+    "r5": "Witch"
+  },
+  {
+    "state": "Vermont",
+    "r1": "1980S",
+    "r2": "Chucky",
+    "r3": "Tinker Bell",
+    "r4": "Stranger Things",
+    "r5": "Michael Myers"
+  },
+  {
+    "state": "Washington",
+    "r1": "Witch",
+    "r2": "Pirate",
+    "r3": "Spider-Man",
+    "r4": "1980S",
+    "r5": "Fairy"
+  },
+  {
+    "state": "Wisconsin",
+    "r1": "Spider-Man",
+    "r2": "Witch",
+    "r3": "Stranger Things",
+    "r4": "Pumpkin",
+    "r5": "Rabbit"
+  },
+  {
+    "state": "West Virginia",
+    "r1": "Witch",
+    "r2": "Stranger Things",
+    "r3": "Hocus Pocus",
+    "r4": "Bluey",
+    "r5": "Toy Story"
+  },
+  {
+    "state": "Wyoming",
+    "r1": "Toy Story",
+    "r2": "Pirate",
+    "r3": "Witch",
+    "r4": "Pikachu",
+    "r5": "Tinker Bell"
+  }
+]
