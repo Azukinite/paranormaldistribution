@@ -15,9 +15,13 @@ In the TRENDS section, the top trending costumes of the past week in the US can 
 ![2022-10-23-07-51-18](https://user-images.githubusercontent.com/57076552/197396347-4441214a-c706-47b0-9c33-252654bc1cd4.gif)
 
 Next, after learning about the uniqueness, the user can go to the SHOP COSTUMES tab. They can input a costume type: "witch," for example.  They can also specify a desired price range using the range slider and hit search. The website returns to the user top shopping results for that kind of costume, factoring in the minimum and maximum price range. Each listing includes titles, prices, merchants, delivery fees and times, and the product's image. Clicking on the shopping bag icon in the top left corner takes them to the actual Google product page in another window, ready for the user to add to their witch-list or proceed with payment.
+
 ![costume](https://user-images.githubusercontent.com/57076552/197396419-68d328db-a7f0-411e-98ba-d45c68e6a370.JPG)
 
 ![costumeshop](https://user-images.githubusercontent.com/57076552/197396429-0716c9f8-9bb0-4866-a5c9-3597ef2db965.JPG)
+
+![googlestore](https://user-images.githubusercontent.com/57076552/197396476-383294b8-e9f1-4686-8ad2-172ae02d9f04.JPG)
+
 
 The user can also click on the RANDOM SHOP tab, which generates a random collection of costumes from what’s trending on Google shopping.
 
