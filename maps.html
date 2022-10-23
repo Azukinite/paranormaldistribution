@@ -1,0 +1,216 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Creepster&family=Inter:wght@300&display=swap');
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+.mapboxgl-popup {
+padding-bottom: 5px;
+
+}
+.mapboxgl-popup-content {
+background-image: url('https://cdn.pixabay.com/photo/2016/09/29/11/56/halloween-1702677_960_720.jpg');
+  background-size:     cover;  
+  background-repeat:   no-repeat;
+  background-position: center center;
+  font-family: 'Creepster', cursive;
+  margin: 0px 4px;
+  height: 100px;
+}
+.mapboxgl-popup-content h3 {
+  color: #FFA600;
+  font-size: 30px;
+  padding: 0 0 5px 0;
+  margin: 0 0 0 0;
+}
+.mapboxgl-popup-content h4 {
+  color: #CCCCCC;
+  font-size: 30px;
+  padding: 0 0 0 0;
+  line-height: 1;
+  margin: 0 0 0 0;
+}
+  
+.rankall-popup .mapboxgl-popup-content {
+  background-image: url('https://i.pinimg.com/736x/f5/10/ce/f510cee47de52c243b245ed921f695a7.jpg');
+  background-repeat: no-repeat;
+  width: 420px;
+  font-family: 'Creepster', cursive;
+  margin: 0px 4px; 
+  height: 220px;
+}
+.rankall-popup .mapboxgl-popup-close-button {
+  color: #C3F03C; 
+  font-size: 50px;
+}
+.rankall-popup .mapboxgl-popup-content h3 {
+  font-size: 40px;
+  line-height: 1;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: #C3F03C; 
+}
+.rankall-popup .mapboxgl-popup-content h4 {
+  color: #CCCCCC;
+  font-size: 30px;
+  line-height: 1.2;
+  margin: 0px 5px; 
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiY2hyaXN0aW5hemhhbmcxOSIsImEiOiJjbDY4NGowODYzcW41M2NvMTBtendvaTl0In0.HpG_pxEApPDpiZhg7vJ34A';
+const map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/christinazhang19/cl9k3tkzh005815nv7m80817q',
+center: [-100.486052, 37.830348],
+zoom: 3
+});
+let hoveredStateId = null;
+//request JSON object for data
+fetch('https://raw.githubusercontent.com/Azukinite/paranormaldistribution/main/data/statecostumes.json')
+  .then(res => res.json())
+  .then(json => {
+map.on('load', () => {
+map.addSource('states', {
+'type': 'geojson',
+'data': 'https://docs.mapbox.com/mapbox-gl-js/assets/us_states.geojson'
+});
+ 
+// The feature-state dependent fill-opacity expression will render the hover effect
+// when a feature's hover state is set to true.
+map.addLayer({
+'id': 'state-fills',
+'type': 'fill',
+'source': 'states',
+'layout': {},
+'paint': {
+'fill-color': '#3f1799',
+'fill-opacity': [
+'case',
+['boolean', ['feature-state', 'hover'], false],
+1,
+0.5
+]
+}
+});
+ 
+map.addLayer({
+'id': 'state-borders',
+'type': 'line',
+'source': 'states',
+'layout': {},
+'paint': {
+'line-color': '#6f44cf',
+'line-width': 2
+}
+});
+
+// Create a popup
+const popup = new mapboxgl.Popup({
+closeButton: false,
+closeOnClick: false
+});
+  
+// Center the map on the feature upon click, show popup
+map.on('click', 'state-fills', (e) => {
+map.flyTo({
+center: e.lngLat,
+zoom: 5
+});
+//fetch json for popup text
+var r1 = "", r2 = "", r3 = "", r4 = "", r5 = "";
+for(const jsonState of json) {
+  if(jsonState.state === e.features[0].properties.STATE_NAME) {
+    //match to popup text
+    r1 = jsonState.r1;
+    r2 = jsonState.r2;
+    r3 = jsonState.r3;
+    r4 = jsonState.r4;
+    r5 = jsonState.r5;
+  }
+}
+// remove other popups
+const popUps = document.getElementsByClassName('mapboxgl-popup');
+if (popUps[0]) popUps[0].remove();
+const popup = new mapboxgl.Popup({ closeButton: true , className: "rankall-popup" })
+.setLngLat(e.lngLat)
+.setHTML(
+`<h3>${e.features[0].properties.STATE_NAME}</h3><h4>1: ${r1}</h4><h4>2: ${r2}</h4><h4>3: ${r3}</h4><h4>4: ${r4}</h4><h4>5: ${r5}</h4>`
+)
+.addTo(map);
+});
+  
+// When the user moves their mouse over the state-fill layer, we'll update the
+// feature state for the feature under the mouse.
+map.on('mousemove', 'state-fills', (e) => {
+//if pop up is still open, don't hover yet
+const popUps = document.getElementsByClassName('rankall-popup');
+if (!popUps[0]) {
+map.flyTo({
+center: [-100.486052, 37.830348],
+zoom: 3
+});
+if (e.features.length > 0) {
+if (hoveredStateId !== null) {
+map.setFeatureState(
+{ source: 'states', id: hoveredStateId },
+{ hover: false }
+);
+}
+hoveredStateId = e.features[0].id;
+map.setFeatureState(
+{ source: 'states', id: hoveredStateId },
+{ hover: true }
+);
+var topRank = "";
+for(const jsonState of json) {
+  if(jsonState.state === e.features[0].properties.STATE_NAME) {
+    //match to popup text
+    topRank = jsonState.r1;
+  }
+}
+//popup event
+//remove other popups
+//const popUps = document.getElementsByClassName('mapboxgl-popup');
+//if (popUps[0]) popUps[0].remove();
+popup.setLngLat(e.lngLat)
+.setHTML(`<h3>${e.features[0].properties.STATE_NAME}</h3><h4>Top ranking costume: ${topRank}</h4>`)
+.addTo(map);
+
+}
+//if !popup
+}
+});
+ 
+// When the mouse leaves the state-fill layer, update the feature state of the previously hovered feature.
+map.on('mouseleave', 'state-fills', () => {
+//if pop up is still open, don't hover yet
+const popUps = document.getElementsByClassName('rankall-popup');
+if (!popUps[0]) {
+map.flyTo({
+center: [-100.486052, 37.830348],
+zoom: 3
+});
+if (hoveredStateId !== null) {
+map.setFeatureState(
+{ source: 'states', id: hoveredStateId },
+{ hover: false }
+);
+}
+hoveredStateId = null;
+//if !popup
+}
+});
+});
+}) 
+</script>
+ 
+</body>
+</html>
