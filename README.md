@@ -1,12 +1,12 @@
 ![Cool Text - Paranormal Distribution 421972546840359](https://user-images.githubusercontent.com/57076552/197397412-50379d96-e82c-4718-8c57-f55ba7afc270.png)
 
 ‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿
-︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
+︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
 
 Reach into the murky depths of your memory and recall 2016...NASA’s Juno spacecraft began orbiting, the Olympics in Rio de Janeiro, Brazil was hosted, and The UK shocked the world upon its departure of the EU... a year of creativity,  potential, and the resourcefulness. Wait, recall a little further to around *this* time of the year... Halloween. Though, seems like your mind is suddenly jolted remembering not all was such an original occurrence -- everyone was dressed as Harley Quinn. Indeed, if you dig deep into the internet archives, you realize that she *was* the number one trending costume nationally (followed by the Joker at number two and the generic “superhero” at number three) according to search queries. You perhaps know someone (or were that someone) who dressed up as Harley for a party, only to find out you're unintentionally matching with your friends. Isn't there a way to avoid this collective awkwardness? If you wish that you had data beforehand to help you look into the crystal ball of costume turnout, then this application, Paranormal Distribution, is the perfect tool.
 
 ‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿‿෴🦇෴‿
-︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
+︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
 
 Paranormal Distribution features a range of data-inspired tools and functionalities, such as map visualizations, ranked lists, news lookup, and data scraping, that enable the user to select a fang-tastic costume.
 
@@ -34,7 +34,7 @@ Next, after learning about the uniqueness, the user can go to the SHOP COSTUMES 
 The user can also click on the RANDOM SHOP tab, which generates a random collection of costumes from what’s trending on Google shopping.
 
 - - - -
-︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
+︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻︵‿︵‿︵‿︵👻
 
 This app was built using Velo by Wix, which allowed us to add custom functionality and interactions using its APIs.
 
